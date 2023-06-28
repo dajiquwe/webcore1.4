@@ -1,0 +1,81 @@
+@font-face {
+    font-family:'TTLakesMedium';
+    src: url("TTLakesMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+* {
+    font-family: 'TTLakesMedium';
+}
+
+.side-menu {
+    width: 320px;
+    height: 1024px;
+    border: 1px solid black;
+    box-shadow: 30px 0 10px rgba(0,0,0,0.1);
+}
+
+.menu__header {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.ic {
+    width: 40px;
+    height: 40px;
+    background: #FF3E79;
+    border-radius: 50%;    
+    display: flex;
+    align-items: center;
+    border: 1px solid #FF3E79;
+}
+
+.logo {
+    margin-left: 20px;
+    margin-right: 70px;
+}
+
+.ic img {
+    margin: auto;
+}
+
+nav.menu__links ul{
+    margin-top: 50px;
+    list-style-type: none;
+    font-size: 16px;
+    margin-bottom: 200px;
+}
+
+nav.menu__links ul li {
+    margin-bottom: 40px;
+}
+
+nav.menu__links ul li:hover::before {
+    content: '|';
+    color: #41F6D7;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.menu__footer {
+    margin-left: 30px;
+}
+
+.menu__buttons {
+    display: flex;
+}
+
+.menu__button {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.menu__contacts {
+    margin-bottom: 50px;
+}
+
+.lang:hover {
+    opacity: 0.5;
+}
